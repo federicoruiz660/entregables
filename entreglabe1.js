@@ -84,6 +84,6 @@ productManagerInstance.getProducts();
     
 }
 
-const productManagerInstance = new ProductManager();   //creo una instancia de la clase
+
 
 
