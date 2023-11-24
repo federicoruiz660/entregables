@@ -6,6 +6,7 @@ class ProductManager {
     }
 
     getProducts() {                      //devuelve todo el arreglo de productos
+        console.log(this.#products);
         return this.#products;
     }
 
@@ -63,6 +64,21 @@ class ProductManager {
    
 
     
+
+
+    
+}
+
+const productManagerInstance = new ProductManager();   //creo una instancia de la clase
+
+
+// Añadir un nuevo producto al array
+
+productManagerInstance.addProduct("Producto 1", "Descripción 1", 100, "https://cdn3.iconfinder.com/data/icons/education-209/64/bus-vehicle-transport-school-128.png", "0001", 10);
+
+//muestro la lista 
+
+productManagerInstance.getProducts();
 
 
     
